@@ -4,7 +4,6 @@ public class linear {
             if(numbers[i]==key){
                 return i;
             }
-
         }
         return -1;
         
