@@ -11,7 +11,7 @@ public class pair1 {
     }
 
     public static void main(String[] args) {
-        int arr[] = {2, 4, 3, 7, 1, 5};
+        int arr[] = {2, 4, 3, 7, 1, 6,5};
         int target = 6;
         findPairs(arr, target);
     }
