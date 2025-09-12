@@ -1,11 +1,22 @@
 public class reverse {
-    public static void main(String[] args) {
-        int numbers[]={1,2,3,4,5,6,7,8,9,};
-         System.out.print("array reverse number:");
-        for(int i=numbers.length;i>0;i--){
-           
-            System.out.print(i);
+    public static void reverse1(int number[]) {
+        int first=0, last =number.length-1;
+        while(first<last){
+            int temp=number[last];
+            number[last]=number[first];
+            number[first]=temp;
+            first++;
+            last--;
         }
+        
+    }
+    public static void main(String[] args) {
+        int number[]={10,20,30,40,50};
+        reverse1(number);
+        for(int i=0;i<number.length;i++){
+            System.out.print(" "+number[i]);
+        }
+        System.out.println();
     }
     
 }
