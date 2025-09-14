@@ -10,14 +10,12 @@ public class linear {
     }
     public static void main(String[] args) {
         int numbers[]={2,4,6,8,9,10,20,30,40};
-        int key=20;
-        int index=linearsearch(numbers, key);
-        if(index==-1){
-            System.out.println("not found");
-        }
-        else{
-            System.out.println(index);
-        }
+        int key=40;
+       
+        
+        
+            System.out.println("key found __"+linearsearch(numbers, key));
+       
     }
     
 }
