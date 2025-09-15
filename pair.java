@@ -6,8 +6,10 @@ public class pair {
         System.out.println("All possible pairs:");
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
-                System.out.println("(" + arr[i] + ", " + arr[j] + ")");
+                System.out.print("(" + arr[i] + ", " + arr[j] + ")");
             }
+            System.out.println();
         }
+        
     }
 }
