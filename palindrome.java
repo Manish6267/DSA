@@ -1,6 +1,6 @@
 public class palindrome{
     public static void main(String[] args) {
-        String str = "racecar";
+        String str = "nitin";
         boolean isPalindrome = true;
 
         int n = str.length();

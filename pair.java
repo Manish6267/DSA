@@ -1,6 +1,6 @@
 public class pair {
     public static void main(String[] args) {
-        int arr[] = {1, 2, 3, 4};  // Example array
+        int arr[] = {1, 2, 3, 4,5};  // Example array
         int n = arr.length;
 
         System.out.println("All possible pairs:");
