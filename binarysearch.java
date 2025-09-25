@@ -18,7 +18,7 @@ public class binarysearch {
     } 
     public static void main(String[] args) {
         int numbers[]={10,45,60,2,5,90};
-        int key=10;
+        int key=50;
         System.out.println("number is greater="+getbinary(numbers, key));
     }   
 }
