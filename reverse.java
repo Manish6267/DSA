@@ -11,7 +11,7 @@ public class reverse {
         
     }
     public static void main(String[] args) {
-        int number[]={10,20,30,40,50};
+        int number[]={5,20,30,40,50};
         reverse1(number);
         for(int i=0;i<number.length;i++){
             System.out.print(" "+number[i]);
