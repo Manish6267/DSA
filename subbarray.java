@@ -16,7 +16,7 @@ public class subbarray {
         
     }
     public static void main(String[] args) {
-        int number[]={1,2,3,4,5,6,7};
+        int number[]={1,2,3,4,5,6,7,8};
         subbarray1(number);
     }
     
