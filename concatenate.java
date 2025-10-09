@@ -6,4 +6,5 @@ public class concatenate {
         System.out.println(fullname);
     }
     
+    
 }
