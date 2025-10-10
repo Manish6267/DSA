@@ -5,6 +5,4 @@ public class concatenate {
         String fullname=firstname+"  "+lastname;
         System.out.println(fullname);
     }
-    
-    
 }
