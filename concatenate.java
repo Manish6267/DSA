@@ -1,6 +1,6 @@
 public class concatenate {
     public static void main(String[] args) {
-        String firstname="adi";
+        String firstname="anurag";
         String lastname="kumar";
         String fullname=firstname+"  "+lastname;
         
