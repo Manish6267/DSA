@@ -21,7 +21,7 @@ public class subbarraysum {
 
     
     public static void main(String[] args) {
-        int number[]={1,2,3,4};
+        int number[]={1,2,3,4,5};
         subbarraysum1(number);
 
     }
