@@ -9,7 +9,6 @@ public class pair1 {
                 System.out.println();
             }
         }
-    
 
     public static void main(String[] args) {
         int arr[] = {2, 4, 3, 7, 1, 6,5};
