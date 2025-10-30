@@ -15,5 +15,6 @@ public class pair1 {
         
         findPairs(arr);
     }
+    
 }
 
