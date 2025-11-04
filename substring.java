@@ -11,4 +11,5 @@ public class substring {
         String str = "manish kumar";
         System.out.println(findsubstring(str, 0, 5)); // Output: manis
     }
+    
 }
