@@ -7,6 +7,8 @@ public class substring {
         return substr;
     }
 
+    
+
     public static void main(String[] args) {
         String str = "manish kumar";
         System.out.println(findsubstring(str, 0, 5)); // Output: manis
